@@ -1,0 +1,78 @@
+{
+  "source": "Databricks Release Notes",
+  "unresolved_group_count": 3,
+  "groups": [
+    {
+      "duplicate_group": "NEW-001",
+      "number_of_entries": 2,
+      "articles": [
+        {
+          "title": "Delegate budget access with access control lists (ACLs)",
+          "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#delegate-budget-access-with-access-control-lists-acls",
+          "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+          "summary": "<p>Budgets now support access control lists (ACLs). Account and workspace admins can grant the Budget Manager or Budget Viewer role to users, groups, or Databricks service principals, delegating who can view and manage a budget. See <a href=\"https://docs.databricks.com/aws/en/admin/account-settings/budget-permissions\">Manage budget permissions</a>.</p>",
+          "published_at_ist": "2026-10-16T05:30:00+05:30",
+          "duplicate_group": "NEW-001",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        },
+        {
+          "title": "Delegate budget access with access control lists (ACLs)",
+          "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#delegate-budget-access-with-access-control-lists-acls",
+          "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+          "summary": "<p>Budgets now support access control lists (ACLs). Account and workspace admins can grant the Budget Manager or Budget Viewer role to users, groups, or Databricks service principals, delegating who can view and manage a budget. See <a href=\"https://docs.databricks.com/aws/en/admin/account-settings/budget-permissions\">Manage budget permissions</a>.</p>",
+          "published_at_ist": "2026-10-16T05:30:00+05:30",
+          "duplicate_group": "NEW-001",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        }
+      ]
+    },
+    {
+      "duplicate_group": "NEW-002",
+      "number_of_entries": 2,
+      "articles": [
+        {
+          "title": "Data Classification adds 50 new classes and support for 16 more countries and regions",
+          "link": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-adds-50-new-classes-and-support-for-16-more-countries-and-regions",
+          "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+          "summary": "<p>Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions:</p>\n<ul>\n<li><strong>Payment card and financial data</strong>: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.</li>\n<li><strong>Personal and employee data</strong>: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status.</li>\n<li><strong>Software security secrets</strong>: Credentials and secrets used by software.</li>\n<li><strong>Regional identifiers</strong>: Added 35 new classes and expanded coverage in existing classes across 18 countries and regions, including China, Mexico, the UK, other European countries, and more. See <a href=\"https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags#regional-tags\">the documentation</a> for details.</li>\n</ul>\n<p>Regional tags are available in select regions. See <a href=\"https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags\">Supported classification tags</a>.</p>",
+          "published_at_ist": "2026-10-15T05:30:00+05:30",
+          "duplicate_group": "NEW-002",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        },
+        {
+          "title": "Data Classification adds 50 new classes and support for 16 more countries and regions",
+          "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-classification-adds-50-new-classes-and-support-for-16-more-countries-and-regions",
+          "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+          "summary": "<p>Data Classification now detects 50 new classes of sensitive data, along with new regional support for 16 countries and regions:</p>\n<ul>\n<li><strong>Payment card and financial data</strong>: Card security codes, card expiration dates, card track data, card PINs, SWIFT codes, and credit scores.</li>\n<li><strong>Personal and employee data</strong>: Gender, residency status, disability data, sexual data, street addresses, geographic coordinates, compensation, and employment status.</li>\n<li><strong>Software security secrets</strong>: Credentials and secrets used by software.</li>\n<li><strong>Regional identifiers</strong>: Added 35 new classes and expanded coverage in existing classes across 18 countries and regions, including China, Mexico, the UK, other European countries, and more. See <a href=\"https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags#regional-tags\">the documentation</a> for details.</li>\n</ul>\n<p>Regional tags are available in select regions. See <a href=\"https://docs.databricks.com/aws/en/data-governance/unity-catalog/data-classification-tags\">Supported classification tags</a>.</p>",
+          "published_at_ist": "2026-10-15T05:30:00+05:30",
+          "duplicate_group": "NEW-002",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        }
+      ]
+    },
+    {
+      "duplicate_group": "NEW-003",
+      "number_of_entries": 2,
+      "articles": [
+        {
+          "title": "Data Classification API is now generally available",
+          "link": "https://docs.databricks.com/aws/en/release-notes/data-classification#data-classification-api-is-now-generally-available",
+          "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+          "summary": "<p>The Data Classification API and its Terraform resource are now generally available. Auto-tagging configuration (<code>auto_tag_configs</code>) remains in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Public Preview</a>. See the <a href=\"https://docs.databricks.com/api/workspace/dataclassification\">API reference</a>.</p>",
+          "published_at_ist": "2026-10-14T05:30:00+05:30",
+          "duplicate_group": "NEW-003",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        },
+        {
+          "title": "Data Classification API is now generally available",
+          "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#data-classification-api-is-now-generally-available",
+          "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+          "summary": "<p>The Data Classification API and its Terraform resource are now generally available. Auto-tagging configuration (<code>auto_tag_configs</code>) remains in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Public Preview</a>. See the <a href=\"https://docs.databricks.com/api/workspace/dataclassification\">API reference</a>.</p>",
+          "published_at_ist": "2026-10-14T05:30:00+05:30",
+          "duplicate_group": "NEW-003",
+          "review_reason": "Matching title, summary, and date, but no matching approved decision was found."
+        }
+      ]
+    }
+  ]
+}

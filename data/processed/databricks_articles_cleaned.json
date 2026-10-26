@@ -1,0 +1,280 @@
+{
+  "source": "Databricks Release Notes",
+  "reporting_period": {
+    "start": "2026-10-12T00:00:00+05:30",
+    "end_exclusive": "2026-10-19T00:00:00+05:30",
+    "timezone": "IST"
+  },
+  "total_input_articles": 48,
+  "articles_removed_as_reviewed_duplicates": 4,
+  "articles_needing_manual_review": 6,
+  "articles_ready_for_next_step": 38,
+  "articles": [
+    {
+      "title": "File upload in Genie One and Genie Agents will soon be available by default for compliance security profile workspaces with supported compliance standards",
+      "link": "https://docs.databricks.com/aws/en/release-notes/whats-coming#file-upload-in-genie-one-and-genie-agents-will-soon-be-available-by-default-for-compliance-security-profile-workspaces-with-supported-compliance-standards",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Starting November 15, 2026, file upload in Genie One and Genie Agents will be available by default for workspaces that have the <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">compliance security profile</a> enabled, if the workspace's compliance standard supports file upload. You can upload files to a conversation and analyze them in natural language alongside your other data.</p>\n<p>Workspaces with a compliance standard that doesn't support file upload yet can't use it. To check whether your standard supports file upload, open its page from the list of supported <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile#compliance-security-profile-overview\">compliance standards</a> and see the feature availability table.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file\">Upload a file</a> and <a href=\"https://docs.databricks.com/aws/en/genie-agents/file-upload\">Upload a file to a Genie Agent</a>.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30"
+    },
+    {
+      "title": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway",
+      "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#typesafe-ai-jev-1140-is-now-available-on-unity-gateway",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>TypeSafe AI <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#typesafe-ai-jev-1-14-0\">Jev 1.14.0</a> is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the <strong>TypeSafe AI Models</strong> preview. TypeSafe's terms govern its use.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30"
+    },
+    {
+      "title": "Delegate access to Genie budgets",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#delegate-access-to-genie-budgets",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Budgets used to manage Genie costs now support access control lists (ACLs). Account admins and workspace admins can grant the <strong>Budget Manager</strong> or <strong>Budget Viewer</strong> role to specific users, groups, or Databricks service principals, delegating who can view and manage each budget. See <a href=\"https://docs.databricks.com/aws/en/admin/account-settings/budget-permissions\">Manage budget permissions</a> and <a href=\"https://docs.databricks.com/aws/en/genie/budgets\">Manage budgets and cost controls for Genie</a>.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30"
+    },
+    {
+      "title": "File upload in Genie One and Genie Agents is now generally available",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-and-genie-agents-is-now-generally-available",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>File upload in Genie One and Genie Agents is now generally available, so workspace admins no longer need to turn on a preview. Upload files to a conversation and analyze them in natural language alongside your other data. For supported file types and limits, see <a href=\"https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file\">Upload a file</a> and <a href=\"https://docs.databricks.com/aws/en/genie-agents/file-upload\">Upload a file to a Genie Agent</a>.</p>\n<p>File upload in Genie One isn't supported for users who have only <a href=\"https://docs.databricks.com/aws/en/ai-bi/consumers\">consumer access</a>.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30"
+    },
+    {
+      "title": "READ METADATA privilege support for compliance security profile standards",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#read-metadata-privilege-support-for-compliance-security-profile-standards",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The <a href=\"https://docs.databricks.com/aws/en/data-governance/unity-catalog/access-control/privileges-reference#read-metadata\"><code>READ METADATA</code> privilege</a> now supports all compliance security profile standards supported by Databricks and is available by default for workspaces with the <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">compliance security profile</a> enabled.</p>\n<p>For a full list of supported compliance standards, see <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">Compliance security profile</a>.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30"
+    },
+    {
+      "title": "Lakebase Search supports Chinese, Japanese, and Korean full-text search",
+      "link": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The <code>lakebase_tokenizer</code> extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full-text search can't split them into useful search terms. The new <code>tokenizer_morph</code> template uses morphological analysis with bundled language dictionaries to segment CJK text into words:</p>\n<ul>\n<li><strong>Built-in configurations</strong>: installing the extension creates <code>tokenizer_chinese</code>, <code>tokenizer_japanese</code>, and <code>tokenizer_korean</code>. Use them directly with <code>to_tsvector</code> without creating a dictionary.</li>\n<li><strong>Compound handling</strong>: choose a mode that keeps compound words whole, splits them into finer-grained terms, or emits both, depending on the language.</li>\n<li><strong>Language-aware filtering</strong>: drop Japanese particles and function words, convert Japanese terms to their base form, and filter Korean particles and endings, so matches focus on meaningful terms.</li>\n</ul>\n<p>Like <code>tokenizer_wholeword</code>, it produces standard <code>tsvector</code> values that work with GIN (generalized inverted index) indexes and the <code>lakebase_text</code> <code>lakebase_bm25</code> index for BM25 (best match 25) ranking. CJK support ships in <code>lakebase_tokenizer</code> 0.2.0. If you already use the extension, run <code>ALTER EXTENSION lakebase_tokenizer UPDATE</code>. Your existing configurations and indexes don't need to change. See <a href=\"https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer\">lakebase_tokenizer</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Replicate data in and out of Lakebase with Postgres logical replication",
+      "link": "https://docs.databricks.com/aws/en/release-notes/lakebase#replicate-data-in-and-out-of-lakebase-with-postgres-logical-replication",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>You can now use native Postgres logical replication to stream changes into and out of Lakebase. Migrate an existing Postgres database into Lakebase and keep it in sync until you cut over, or publish changes from Lakebase to external Postgres databases. See <a href=\"https://docs.databricks.com/aws/en/oltp/projects/logical-replication\">Logical replication</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Consumer access to query Unity Gateway services is generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. See <a href=\"https://docs.databricks.com/aws/en/ai-bi/consumers#consumer-access-capabilities\">Consumer access capabilities</a>.</p>\n<p>This change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users. See <a href=\"https://docs.databricks.com/aws/en/ai-gateway/budgets\">Manage budgets for Unity Gateway</a>, <a href=\"https://docs.databricks.com/aws/en/ai-gateway/rate-limits\">Apply rate limits to model and MCP services</a>, and <a href=\"https://docs.databricks.com/aws/en/security/auth/entitlements\">Manage entitlements</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Genie Agents enhancements",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-agents-enhancements",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<ul>\n<li><strong>Flash (Beta)</strong>: Agent mode now offers Flash, an option that prioritizes response speed over depth. Flash is most efficient on simpler, everyday tasks. See <a href=\"https://docs.databricks.com/aws/en/genie-agents/concepts#flash\">Flash</a>.</li>\n<li><strong>Agent mode model upgrade</strong>: Agent mode now uses upgraded models that better handle long context and respond faster. See <a href=\"https://docs.databricks.com/aws/en/genie-agents/concepts#agent-mode\">Agent mode</a>.</li>\n</ul>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Genie One enhancements",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#genie-one-enhancements-1",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<ul>\n<li><strong>Collaborative document editing</strong>: People you share a Genie One document with can now edit it if they have CAN EDIT permission. See <a href=\"https://docs.databricks.com/aws/en/genie-one/documents#share\">Share a document</a>.</li>\n<li><strong>Group memberships in user info</strong>: When Genie One retrieves a user's information, it now also returns the user's group memberships. You can use workspace instructions and table descriptions to tailor how Genie One responds to members of specific groups.</li>\n<li><strong>Reuse context from past investigations</strong>: When you ask a question similar to one you asked before, Genie One can now use the context from the earlier investigation to answer faster. See <a href=\"https://docs.databricks.com/aws/en/genie-one/chat#recall-past-conversations\">Recall past conversations</a>.</li>\n<li><strong>Share skills with Unity Gateway (Beta)</strong>: You can now publish Genie One skills to a Unity Catalog schema and share them with your team. Unity Gateway governs shared skills, so teammates can discover and install existing skills from one central location instead of keeping copies in sync. See <a href=\"https://docs.databricks.com/aws/en/genie-one/chat#share-skills\">Share a skill with your team</a>.</li>\n</ul>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Dashboard enhancements and bug fixes",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#dashboard-enhancements-and-bug-fixes",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<ul>\n<li><strong>Lakehouse Real-Time warehouse support (Beta)</strong>: AI/BI dashboards now work with Lakehouse Real-Time SQL warehouses. See <a href=\"https://docs.databricks.com/aws/en/compute/sql-warehouse/real-time-dashboards\">Use Lakehouse Real-Time with AI/BI dashboards</a>.</li>\n<li><strong>Dashboard Insights (Beta)</strong>: Viewers can now have Genie analyze the charts on a published dashboard page and summarize notable findings, such as trends and outliers, as insight cards. See <a href=\"https://docs.databricks.com/aws/en/dashboards/genie-spaces#dashboard-insights\">Dashboard Insights</a>.</li>\n<li><strong>Import Power BI <code>.tmdl</code> files</strong>: Authors can now upload Power BI <code>.tmdl</code> files to create metric views with the <code>/importBI</code> Genie Code skill. See <a href=\"https://docs.databricks.com/aws/en/dashboards/manage/import-bi#upload-a-file\">Import one file at a time</a>.</li>\n<li><strong>Pivot table drill-down</strong>: Viewers can now drill down through the row and column hierarchy of a pivot table one level at a time. See <a href=\"https://docs.databricks.com/aws/en/dashboards/manage/filters#pivot-drill-down\">Drill down in pivot tables</a>.</li>\n<li><strong>Theme fonts for rich text titles</strong>: Rich text widget titles and descriptions now inherit the dashboard theme's font styles. See <a href=\"https://docs.databricks.com/aws/en/dashboards/manage/settings#custom-font\">Customize colors and fonts</a>.</li>\n<li><strong>Pivot table null header fix</strong>: Pivot tables now show <code>NULL</code> values and the text <code>null</code> as separate headers instead of merging them into one.</li>\n<li><strong>Cross-dataset measure export fix</strong>: Exported cross-dataset measures now use the measure name as the column header.</li>\n<li><strong>Decimal precision fix</strong>: Visualizations that Genie generates now respect decimal precision.</li>\n</ul>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "ADBC driver for Power BI is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service. See <a href=\"https://docs.databricks.com/aws/en/partners/bi/power-bi/adbc\">Configure ADBC or ODBC driver for Power BI</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "MySQL integrated CDC pipeline is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See <a href=\"https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline\">Create an integrated CDC pipeline for MySQL</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Redesigned MLflow Logs tab for AI Runtime runs",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#redesigned-mlflow-logs-tab-for-ai-runtime-runs",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The MLflow run page <strong>Logs</strong> tab for AI Runtime runs now supports searching and filtering logs by node, level, and time range, following a running workload as new output arrives, and downloading logs. For new runs, it replaces the log files previously stored on the run's <strong>Artifacts</strong> tab, which are deprecated. Logs are available for 60 days. Logs for existing runs remain on the <strong>Artifacts</strong> tab. See <a href=\"https://docs.databricks.com/aws/en/machine-learning/ai-runtime/monitor-deploy/tracking-observability#logs-tab\">View logs in the MLflow Logs tab</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "The agentic code converter is generally available for SQL conversion",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#the-agentic-code-converter-is-generally-available-for-sql-conversion",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The agentic code converter is now generally available for the <strong>SQL</strong> target framework. Powered by Genie Code, it converts SQL from dialects such as T-SQL, Snowflake, Redshift, Oracle, BigQuery, and Teradata into Databricks SQL queries. You organize the work in a migration project, and the converter validates the output and fixes errors before writing the results to a workspace folder. After a conversion, you can continue chatting with Genie Code about the converted files to address action items or summarize the changes.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/migration/agentic-code-converter\">Convert SQL with the agentic code converter</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30"
+    },
+    {
+      "title": "Workspace-level package repositories for Databricks Apps will soon be available by default for workspaces with the compliance security profile enabled",
+      "link": "https://docs.databricks.com/aws/en/release-notes/whats-coming#workspace-level-package-repositories-for-databricks-apps-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Starting November 13, 2026, workspace-level package repositories for Databricks Apps will be automatically enabled for workspaces with the <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">compliance security profile</a> enabled. Workspace admins can configure default Python and npm package repositories that apps inherit while still allowing app-level overrides.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories\">Configure default package repositories</a>.</p>",
+      "published_at_ist": "2026-10-14T05:30:00+05:30"
+    },
+    {
+      "title": "Transactions support both managed Delta Lake and Apache Iceberg tables",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#transactions-support-both-managed-delta-lake-and-apache-iceberg-tables",
+      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Transactions are generally available for both Unity Catalog managed Delta Lake tables and Unity Catalog managed Apache Iceberg tables. Group multiple SQL statements across one or more managed Delta Lake or managed Apache Iceberg tables into a single atomic transaction using <code>BEGIN ATOMIC ... END;</code> or <code>BEGIN TRANSACTION; ... COMMIT;</code> syntax. Transactions require <a href=\"https://docs.databricks.com/aws/en/tables/features/catalog-commits\">catalog commits</a> enabled on participating tables.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/transactions\">Transactions</a>.</p>",
+      "published_at_ist": "2026-10-14T05:30:00+05:30"
+    },
+    {
+      "title": "Workspace-level package repositories for Databricks Apps are generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#workspace-level-package-repositories-for-databricks-apps-are-generally-available",
+      "published": "Wed, 14 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Workspace admins can now configure default Python and npm package repositories for Databricks Apps. Apps inherit the workspace configuration while still allowing app-level overrides.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/admin/workspace-settings/default-package-repositories\">Configure default package repositories</a>.</p>",
+      "published_at_ist": "2026-10-14T05:30:00+05:30"
+    },
+    {
+      "title": "AI Runtime will soon be available by default for workspaces with the compliance security profile enabled",
+      "link": "https://docs.databricks.com/aws/en/release-notes/whats-coming#ai-runtime-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>AI Runtime is scheduled to become generally available on October 15, 2026, on AWS and Azure for workspaces without the <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">compliance security profile</a> enabled.</p>\n<p>AI Runtime will be available by default for eligible workspaces with the compliance security profile enabled in mid November. Availability depends on the supported compliance standards and regions.</p>\n<p>Use AI Runtime to train and fine-tune models on serverless GPUs without provisioning or managing the underlying infrastructure.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/machine-learning/ai-runtime\">AI Runtime</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Google Gemini 4 Argon is now available on Unity Gateway",
+      "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-4-argon-is-now-available-on-unity-gateway",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Google <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-4-argon\">Gemini 4 Argon</a> is now available on Unity Gateway. You can access this model using <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis\">Foundation Model APIs</a>.</p>\n<p>Customers are responsible for ensuring their compliance with <a href=\"https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models\">applicable terms</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "On-demand state repartitioning is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#on-demand-state-repartitioning-is-now-generally-available",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>On-demand state repartitioning is now generally available. You can resize the number of shuffle partitions for a stateful Structured Streaming query or Lakeflow pipeline without losing checkpoint state. See <a href=\"https://docs.databricks.com/aws/en/structured-streaming/state-repartitioning\">On-demand state repartitioning for stateful streaming queries</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "External writes to managed Delta tables are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-writes-to-managed-delta-tables-are-now-generally-available",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Support for creating and writing to Unity Catalog managed Delta tables from external Apache Spark clients is now generally available. Tables must have catalog commits enabled. See <a href=\"https://docs.databricks.com/aws/en/external-access/unity-rest\">Access Databricks tables from Delta clients</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "External access to views through the Unity REST API is generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#external-access-to-views-through-the-unity-rest-api-is-generally-available",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>External engines can now query Unity Catalog views over Delta Lake tables through the Unity REST API. See <a href=\"https://docs.databricks.com/aws/en/external-access/views\">External access to views</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Cribl connector is available in Beta",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#cribl-connector-is-available-in-beta",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The managed <a href=\"https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/cribl\">Cribl connector</a> is now available in Beta in Databricks Lakeflow Connect.</p>\n<p>Use the connector to ingest Cribl.Cloud Worker Group configuration, worker and health status, organization metadata, and Leader audit and access logs into Databricks. The connector uses OAuth machine-to-machine authentication and supports incremental ingestion for audit and access logs.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Shared output in clean rooms is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#shared-output-in-clean-rooms-is-now-generally-available",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Clean room runs can now write to a shared output schema that every collaborator can read as soon as each table is created, even before the run finishes. Use it to share results, logs, and debugging information with all collaborators. See <a href=\"https://docs.databricks.com/aws/en/clean-rooms/output-tables#shared-output\">Share output with all collaborators</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "JAR workloads in clean rooms are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#jar-workloads-in-clean-rooms-are-now-generally-available",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>You can now run compiled Java or Scala code in clean rooms. Run a JAR as its own clean room analysis, or register a function from a JAR and call it from a clean room notebook as a temporary UDF. See <a href=\"https://docs.databricks.com/aws/en/clean-rooms/clean-room-jar-task\">Run JAR workloads in Databricks clean rooms</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Create clean rooms with identity resolution providers in one step (GA)",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#create-clean-rooms-with-identity-resolution-providers-in-one-step-ga",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>You can now create a ready-to-use packaged clean room with an approved identity resolution provider, such as Acxiom, Adstra, LiveRamp, or The Trade Desk, in one step from the Clean Rooms page. The provider is preconfigured as the package provider, so you can add your data and run the provider's analysis right away. See <a href=\"https://docs.databricks.com/aws/en/clean-rooms/packaged-clean-rooms#identity-resolution\">Create a clean room with an identity resolution provider</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Databricks AI Runtime SDK replaces serverless_gpu",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Starting in GPU environment version 6, the Databricks AI Runtime SDK (<code>databricks-sdk-air</code>) replaces the deprecated <code>serverless_gpu</code> package. It provides the <code>@distributed</code> and <code>ray_init</code> APIs and the <code>databricks.air.data</code> utilities under the <code>databricks.air</code> namespace. The <code>gpus</code> and <code>gpu_type</code> arguments are renamed to <code>num_accelerators</code> and <code>accelerator_type</code>. The old names still work in <code>databricks.air</code> but emit a <code>FutureWarning</code>, and support will end in version 7.</p>\n<p>Serverless GPU environment version 6 includes both packages. Version 6 is the last version that includes <code>serverless_gpu</code>. Versions 5 and below continue to use it. See <a href=\"https://docs.databricks.com/aws/en/machine-learning/ai-runtime/connecting/distributed-training#migrate-serverless-gpu\"> Migrate from <code>serverless_gpu</code></a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30"
+    },
+    {
+      "title": "Databricks SQL version 2026.42 is now available in Preview",
+      "link": "https://docs.databricks.com/aws/en/sql/release-notes/2026#databricks-sql-version-202642-is-now-available-in-preview",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Databricks SQL version 2026.42 is now available in the <strong>Preview</strong> channel. This version includes the following changes:</p>\n<ul>\n<li>Operating system security updates.</li>\n<li>Miscellaneous bug fixes.</li>\n</ul>\n<p>This version doesn't include new features or behavioral changes.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Feature Views will soon be available by default for workspaces with the compliance security profile enabled",
+      "link": "https://docs.databricks.com/aws/en/release-notes/whats-coming#feature-views-will-soon-be-available-by-default-for-workspaces-with-the-compliance-security-profile-enabled",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Feature Views are now generally available. They will be automatically enabled for workspaces with the <a href=\"https://docs.databricks.com/aws/en/security/privacy/security-profile\">compliance security profile</a> enabled in mid-November 2026.</p>\n<p>Define and compute features declaratively from batch or streaming data, then use them for model training and online serving.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views\">Feature Views</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Unity Gateway Skills API and developer tools are available in Beta",
+      "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The Unity Gateway Skills REST API is now available in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Beta</a>, with create, read, update, list, delete, and finalize support across Databricks developer tools:</p>\n<ul>\n<li>Databricks CLI</li>\n<li>Python SDK</li>\n<li>Go SDK</li>\n<li>Go Modular SDK</li>\n<li>Java SDK</li>\n<li>JavaScript SDK</li>\n</ul>\n<p>See the <a href=\"https://docs.databricks.com/aws/en/ai-gateway/skill-reference\">Skills API and SDK reference</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Governed tag propagation is in Beta",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#governed-tag-propagation-is-in-beta",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Tag propagation in Unity Catalog is in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Beta</a>. When you enable tag propagation for a governed tag, Unity Catalog uses lineage to automatically apply that tag to derived tables and views whenever a supported operation runs, such as <code>CREATE TABLE AS SELECT</code>, <code>CREATE VIEW</code>, <code>INSERT INTO ... SELECT</code>, or <code>MERGE</code>. This keeps classification and ABAC enforcement consistent at both the table and column levels as data moves downstream.</p>\n<p>See <a href=\"https://docs.databricks.com/aws/en/admin/governed-tags/tag-propagation\">Tag propagation</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Parameters for Lakeflow pipelines are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key-value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax. See <a href=\"https://docs.databricks.com/aws/en/ldp/parameters\">Use parameters with pipelines</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Private connectivity from serverless compute to AWS-managed resources is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See <a href=\"https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-aws-resources\">Configure private connectivity to AWS-managed resources</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Agent memory pipelines are in Beta",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#agent-memory-pipelines-are-in-beta",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Agent memory pipelines are in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Beta</a>. A memory pipeline connects a session store to a memory store. Each run uses an LLM to distill durable facts, preferences, and decisions from stored conversations into memory entries that your agent recalls in later conversations. You can run a pipeline on demand or about every 24 hours. See <a href=\"https://docs.databricks.com/aws/en/agents/agent-memory/memory-pipelines\">Agent memory pipelines</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Knowledge Assistant and Supervisor Agent are now legacy",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#knowledge-assistant-and-supervisor-agent-are-now-legacy",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p><a href=\"https://docs.databricks.com/aws/en/agents/agent-bricks/knowledge-assistant\">Knowledge Assistant</a> and <a href=\"https://docs.databricks.com/aws/en/agents/agent-bricks/multi-agent-supervisor\">Supervisor Agent</a> are now <a href=\"https://docs.databricks.com/aws/en/release-notes/runtime/databricks-runtime-ver\">legacy</a> offerings. For new agents written in code, Databricks recommends the <a href=\"https://docs.databricks.com/aws/en/agents/custom-agents/agent-bricks-cli\">Agent Bricks CLI</a>. To build agents without code, use <a href=\"https://docs.databricks.com/aws/en/genie-agents\">Genie Agents</a>. See <a href=\"https://docs.databricks.com/aws/en/agents/legacy\">Legacy agent offerings</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Feature Views are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See <a href=\"https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views\">Feature Views</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    },
+    {
+      "title": "Context-based ingress policies for inbound private connectivity are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If <strong>Context-Based Ingress: Workspace Private Access Policies</strong> isn't already enabled for your account, an account admin can enable it from the account console <strong>Previews</strong> page. See <a href=\"https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#private-access\">Configure private access policy</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30"
+    }
+  ]
+}

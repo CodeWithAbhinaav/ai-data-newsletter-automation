@@ -1,0 +1,441 @@
+{
+  "source": "Databricks Release Notes",
+  "reporting_period": {
+    "start": "2026-10-12T00:00:00+05:30",
+    "end_exclusive": "2026-10-19T00:00:00+05:30",
+    "timezone": "IST"
+  },
+  "input_article_count": 38,
+  "selected_article_count": 10,
+  "selection_settings": {
+    "maximum_articles": 10,
+    "maximum_articles_per_primary_category": 3
+  },
+  "category_counts": {
+    "AI & Agents": 3,
+    "BI & Analytics": 1,
+    "Data Engineering & SQL": 3,
+    "Security & Governance": 2,
+    "ML & Data Science": 1
+  },
+  "editorial_note": "This is an automated shortlist, not a final newsletter. Review article relevance, accuracy, timeliness, and topic diversity before publication.",
+  "articles": [
+    {
+      "title": "Databricks AI Runtime SDK replaces serverless_gpu",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Starting in GPU environment version 6, the Databricks AI Runtime SDK (<code>databricks-sdk-air</code>) replaces the deprecated <code>serverless_gpu</code> package. It provides the <code>@distributed</code> and <code>ray_init</code> APIs and the <code>databricks.air.data</code> utilities under the <code>databricks.air</code> namespace. The <code>gpus</code> and <code>gpu_type</code> arguments are renamed to <code>num_accelerators</code> and <code>accelerator_type</code>. The old names still work in <code>databricks.air</code> but emit a <code>FutureWarning</code>, and support will end in version 7.</p>\n<p>Serverless GPU environment version 6 includes both packages. Version 6 is the last version that includes <code>serverless_gpu</code>. Versions 5 and below continue to use it. See <a href=\"https://docs.databricks.com/aws/en/machine-learning/ai-runtime/connecting/distributed-training#migrate-serverless-gpu\"> Migrate from <code>serverless_gpu</code></a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30",
+      "summary_text": "Starting in GPU environment version 6, the Databricks AI Runtime SDK ( databricks-sdk-air ) replaces the deprecated serverless_gpu package. It provides the @distributed and ray_init APIs and the databricks.air.data utilities under the databricks.air namespace. The gpus and gpu_type arguments are renamed to num_accelerators and accelerator_type . The old names still work in databricks.air but emit a FutureWarning , and support will end in version 7. Serverless GPU environment version 6 includes both packages. Version 6 is the last version that includes serverless_gpu . Versions 5 and below continue to use it. See Migrate from serverless_gpu .",
+      "categories": [
+        "AI & Agents"
+      ],
+      "secondary_categories": [
+        "ML & Data Science"
+      ],
+      "category_evidence": {
+        "AI & Agents": {
+          "matched_in": "title",
+          "title_matches": [
+            "ai runtime"
+          ],
+          "summary_matches": [
+            "ai runtime"
+          ]
+        },
+        "ML & Data Science": {
+          "matched_in": "summary_only",
+          "title_matches": [],
+          "summary_matches": [
+            "serverless gpu"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 0,
+      "action_score": 3,
+      "security_score": 0,
+      "priority_score": 6,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: AI & Agents (+3)",
+        "Release maturity: No explicit GA release signal in title (+0)",
+        "Actionable title signal: replaces (+3)",
+        "Specific lifecycle or migration signal: support will end, last version that includes (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "AI & Agents",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "File upload in Genie One and Genie Agents is now generally available",
+      "link": "https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-and-genie-agents-is-now-generally-available",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>File upload in Genie One and Genie Agents is now generally available, so workspace admins no longer need to turn on a preview. Upload files to a conversation and analyze them in natural language alongside your other data. For supported file types and limits, see <a href=\"https://docs.databricks.com/aws/en/genie-one/chat#upload-a-file\">Upload a file</a> and <a href=\"https://docs.databricks.com/aws/en/genie-agents/file-upload\">Upload a file to a Genie Agent</a>.</p>\n<p>File upload in Genie One isn't supported for users who have only <a href=\"https://docs.databricks.com/aws/en/ai-bi/consumers\">consumer access</a>.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30",
+      "summary_text": "File upload in Genie One and Genie Agents is now generally available, so workspace admins no longer need to turn on a preview. Upload files to a conversation and analyze them in natural language alongside your other data. For supported file types and limits, see Upload a file and Upload a file to a Genie Agent . File upload in Genie One isn't supported for users who have only consumer access .",
+      "categories": [
+        "AI & Agents"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "AI & Agents": {
+          "matched_in": "title",
+          "title_matches": [
+            "genie"
+          ],
+          "summary_matches": [
+            "genie",
+            "agent"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 5,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: AI & Agents (+3)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "AI & Agents",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Consumer access to query Unity Gateway services is generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. See <a href=\"https://docs.databricks.com/aws/en/ai-bi/consumers#consumer-access-capabilities\">Consumer access capabilities</a>.</p>\n<p>This change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users. See <a href=\"https://docs.databricks.com/aws/en/ai-gateway/budgets\">Manage budgets for Unity Gateway</a>, <a href=\"https://docs.databricks.com/aws/en/ai-gateway/rate-limits\">Apply rate limits to model and MCP services</a>, and <a href=\"https://docs.databricks.com/aws/en/security/auth/entitlements\">Manage entitlements</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "summary_text": "Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. See Consumer access capabilities . This change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users. See Manage budgets for Unity Gateway , Apply rate limits to model and MCP services , and Manage entitlements .",
+      "categories": [
+        "AI & Agents"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "AI & Agents": {
+          "matched_in": "title",
+          "title_matches": [
+            "unity gateway"
+          ],
+          "summary_matches": [
+            "agent",
+            "unity gateway"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 5,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: AI & Agents (+3)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "AI & Agents",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "ADBC driver for Power BI is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service. See <a href=\"https://docs.databricks.com/aws/en/partners/bi/power-bi/adbc\">Configure ADBC or ODBC driver for Power BI</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "summary_text": "The Arrow Database Connectivity (ADBC) driver for the Databricks connector for Power BI is now generally available. ADBC is the default driver for new connections in Power BI Desktop and the Power BI service. See Configure ADBC or ODBC driver for Power BI .",
+      "categories": [
+        "BI & Analytics"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "BI & Analytics": {
+          "matched_in": "title",
+          "title_matches": [
+            "power bi",
+            "adbc driver"
+          ],
+          "summary_matches": [
+            "power bi"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 5,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: BI & Analytics (+3)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "BI & Analytics",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "MySQL integrated CDC pipeline is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See <a href=\"https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/mysql-integrated-pipeline\">Create an integrated CDC pipeline for MySQL</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "summary_text": "The integrated CDC pipeline for MySQL is now generally available. An integrated CDC pipeline ingests change data from MySQL into Databricks using a single pipeline, combining extraction and application into one pipeline update. Unlike the standard gateway-based architecture, an integrated CDC pipeline requires no separate ingestion gateway. See Create an integrated CDC pipeline for MySQL .",
+      "categories": [
+        "Data Engineering & SQL"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "Data Engineering & SQL": {
+          "matched_in": "title",
+          "title_matches": [
+            "pipeline",
+            "cdc",
+            "mysql"
+          ],
+          "summary_matches": [
+            "pipeline",
+            "cdc",
+            "mysql",
+            "ingestion"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 5,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: Data Engineering & SQL (+3)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "Data Engineering & SQL",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Parameters for Lakeflow pipelines are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key-value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax. See <a href=\"https://docs.databricks.com/aws/en/ldp/parameters\">Use parameters with pipelines</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "summary_text": "Pipeline parameters are now generally available. Parameterize Lakeflow pipeline SQL source code with key-value pairs so a single pipeline can run against different catalogs, schemas, or tables without editing the source. Define parameter defaults in pipeline settings, override them when you start an update, and reference them in SQL with named parameter syntax. See Use parameters with pipelines .",
+      "categories": [
+        "Data Engineering & SQL"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "Data Engineering & SQL": {
+          "matched_in": "title",
+          "title_matches": [
+            "lakeflow"
+          ],
+          "summary_matches": [
+            "sql",
+            "lakeflow",
+            "pipeline"
+          ]
+        }
+      },
+      "topic_score": 3,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 5,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: Data Engineering & SQL (+3)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "Data Engineering & SQL",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Private connectivity from serverless compute to AWS-managed resources is now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See <a href=\"https://docs.databricks.com/aws/en/security/network/serverless-network-security/pl-aws-resources\">Configure private connectivity to AWS-managed resources</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "summary_text": "AWS Private Link from Databricks serverless compute to AWS-managed resources, such as S3 buckets, previously in Public Preview, is now generally available. Your data traffic remains entirely within the AWS network and never traverses the public internet. See Configure private connectivity to AWS-managed resources .",
+      "categories": [
+        "Security & Governance"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "Security & Governance": {
+          "matched_in": "title",
+          "title_matches": [
+            "private connectivity"
+          ],
+          "summary_matches": [
+            "private link",
+            "private connectivity"
+          ]
+        }
+      },
+      "topic_score": 2,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 4,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: Security & Governance (+2)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "Security & Governance",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Feature Views are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See <a href=\"https://docs.databricks.com/aws/en/machine-learning/feature-store/feature-views\">Feature Views</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "summary_text": "Feature Views are now generally available for batch, streaming, and request-time data. They will be enabled for compliance security profile workspaces in mid-November 2026. See Feature Views .",
+      "categories": [
+        "ML & Data Science"
+      ],
+      "secondary_categories": [
+        "Data Engineering & SQL",
+        "Security & Governance"
+      ],
+      "category_evidence": {
+        "Data Engineering & SQL": {
+          "matched_in": "summary_only",
+          "title_matches": [],
+          "summary_matches": [
+            "streaming"
+          ]
+        },
+        "Security & Governance": {
+          "matched_in": "summary_only",
+          "title_matches": [],
+          "summary_matches": [
+            "security",
+            "compliance"
+          ]
+        },
+        "ML & Data Science": {
+          "matched_in": "title",
+          "title_matches": [
+            "feature views"
+          ],
+          "summary_matches": [
+            "feature views"
+          ]
+        }
+      },
+      "topic_score": 2,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 4,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: ML & Data Science (+2)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "ML & Data Science",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Context-based ingress policies for inbound private connectivity are now generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If <strong>Context-Based Ingress: Workspace Private Access Policies</strong> isn't already enabled for your account, an account admin can enable it from the account console <strong>Previews</strong> page. See <a href=\"https://docs.databricks.com/aws/en/security/network/front-end/front-end-private-connect#private-access\">Configure private access policy</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "summary_text": "Context-based ingress policies for inbound Private Link are now generally available. Control which registered VPC endpoints can reach your workspaces, and combine endpoint rules with identity and request type conditions in the same policy. If Context-Based Ingress: Workspace Private Access Policies isn't already enabled for your account, an account admin can enable it from the account console Previews page. See Configure private access policy .",
+      "categories": [
+        "Security & Governance"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "Security & Governance": {
+          "matched_in": "title",
+          "title_matches": [
+            "private connectivity"
+          ],
+          "summary_matches": [
+            "private link"
+          ]
+        }
+      },
+      "topic_score": 2,
+      "release_score": 2,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 4,
+      "priority": "Medium",
+      "ranking_reasons": [
+        "Main topic: Security & Governance (+2)",
+        "Release maturity: Generally available release stated in title (+2)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "Security & Governance",
+      "selection_status": "Selected for editorial review"
+    },
+    {
+      "title": "Lakebase Search supports Chinese, Japanese, and Korean full-text search",
+      "link": "https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The <code>lakebase_tokenizer</code> extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full-text search can't split them into useful search terms. The new <code>tokenizer_morph</code> template uses morphological analysis with bundled language dictionaries to segment CJK text into words:</p>\n<ul>\n<li><strong>Built-in configurations</strong>: installing the extension creates <code>tokenizer_chinese</code>, <code>tokenizer_japanese</code>, and <code>tokenizer_korean</code>. Use them directly with <code>to_tsvector</code> without creating a dictionary.</li>\n<li><strong>Compound handling</strong>: choose a mode that keeps compound words whole, splits them into finer-grained terms, or emits both, depending on the language.</li>\n<li><strong>Language-aware filtering</strong>: drop Japanese particles and function words, convert Japanese terms to their base form, and filter Korean particles and endings, so matches focus on meaningful terms.</li>\n</ul>\n<p>Like <code>tokenizer_wholeword</code>, it produces standard <code>tsvector</code> values that work with GIN (generalized inverted index) indexes and the <code>lakebase_text</code> <code>lakebase_bm25</code> index for BM25 (best match 25) ranking. CJK support ships in <code>lakebase_tokenizer</code> 0.2.0. If you already use the extension, run <code>ALTER EXTENSION lakebase_tokenizer UPDATE</code>. Your existing configurations and indexes don't need to change. See <a href=\"https://docs.databricks.com/aws/en/oltp/projects/lakebase-tokenizer\">lakebase_tokenizer</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "summary_text": "The lakebase_tokenizer extension now supports keyword search over Chinese, Japanese, and Korean (CJK) text. These languages don't separate words with spaces, so native PostgreSQL full-text search can't split them into useful search terms. The new tokenizer_morph template uses morphological analysis with bundled language dictionaries to segment CJK text into words: Built-in configurations : installing the extension creates tokenizer_chinese , tokenizer_japanese , and tokenizer_korean . Use them directly with to_tsvector without creating a dictionary. Compound handling : choose a mode that keeps compound words whole, splits them into finer-grained terms, or emits both, depending on the language. Language-aware filtering : drop Japanese particles and function words, convert Japanese terms to their base form, and filter Korean particles and endings, so matches focus on meaningful terms. Like tokenizer_wholeword , it produces standard tsvector values that work with GIN (generalized inverted index) indexes and the lakebase_text lakebase_bm25 index for BM25 (best match 25) ranking. CJK support ships in lakebase_tokenizer 0.2.0. If you already use the extension, run ALTER EXTENSION lakebase_tokenizer UPDATE . Your existing configurations and indexes don't need to change. See lakebase_tokenizer .",
+      "categories": [
+        "Data Engineering & SQL"
+      ],
+      "secondary_categories": [],
+      "category_evidence": {
+        "Data Engineering & SQL": {
+          "matched_in": "title",
+          "title_matches": [
+            "lakebase"
+          ],
+          "summary_matches": []
+        }
+      },
+      "topic_score": 3,
+      "release_score": 0,
+      "action_score": 0,
+      "security_score": 0,
+      "priority_score": 3,
+      "priority": "Low",
+      "ranking_reasons": [
+        "Main topic: Data Engineering & SQL (+3)",
+        "Release maturity: No explicit GA release signal in title (+0)",
+        "No strong action signal detected (+0)",
+        "Security impact: No explicit security-impact signal in title (+0)"
+      ],
+      "needs_human_review": true,
+      "primary_category": "Data Engineering & SQL",
+      "selection_status": "Selected for editorial review"
+    }
+  ]
+}

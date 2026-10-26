@@ -1,0 +1,25 @@
+
+{
+  "reviewed_decisions": [
+    {
+      "title": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway",
+      "published_at_ist": "2026-10-16T05:30:00+05:30",
+      "keep_link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#typesafe-ai-jev-1140-is-now-available-on-unity-gateway"
+    },
+    {
+      "title": "Consumer access to query Unity Gateway services is generally available",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "keep_link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available"
+    },
+    {
+      "title": "Google Gemini 4 Argon is now available on Unity Gateway",
+      "published_at_ist": "2026-10-13T05:30:00+05:30",
+      "keep_link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-4-argon-is-now-available-on-unity-gateway"
+    },
+    {
+      "title": "Unity Gateway Skills API and developer tools are available in Beta",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "keep_link": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-skills-api-and-developer-tools-are-available-in-beta"
+    }
+  ]
+}

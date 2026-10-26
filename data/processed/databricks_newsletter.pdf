@@ -1,0 +1,319 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 30 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 447.2898 342.291 460.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+6 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#databricks-ai-runtime-sdk-replaces-serverless_gpu)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 295.0898 223.927 306.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+7 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-and-genie-agents-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 234.5898 430.94 247.7898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/ai-bi/release-notes/2026#file-upload-in-genie-one-and-genie-agents-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 110.3898 223.927 121.7898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/Annots [ 5 0 R 6 0 R 7 0 R 8 0 R ] /Contents 35 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 768.6898 446.868 781.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 616.4898 223.927 627.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 521.9898 371.012 535.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#mysql-integrated-cdc-pipeline-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 397.7898 223.927 409.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 337.2898 391.219 350.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+15 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#parameters-for-lakeflow-pipelines-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 213.0898 223.927 224.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+16 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 152.5898 457.219 165.7898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+17 0 obj
+<<
+/Annots [ 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R ] /Contents 36 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+18 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/lakebase#lakebase-search-supports-chinese-japanese-and-korean-full-text-search)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 623.4898 223.927 634.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+19 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 528.9898 338.617 542.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+20 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#adbc-driver-for-power-bi-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 418.7898 223.927 430.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+21 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 324.2898 286.686 337.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+22 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#feature-views-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 228.0898 223.927 239.4898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+23 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 67.192 133.5898 492.045 146.7898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+24 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 54.96 118.5898 152.794 131.7898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+25 0 obj
+<<
+/Annots [ 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R ] /Contents 37 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+26 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#private-connectivity-from-serverless-compute-to-aws-managed-resources-is-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 721.4898 223.927 732.8898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+27 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 73.308 660.9898 502.429 674.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+28 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 54.96 645.9898 101.435 659.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+29 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://docs.databricks.com/aws/en/release-notes/product/2026/october#context-based-ingress-policies-for-inbound-private-connectivity-are-now-generally-available)
+>> /Border [ 0 0 0 ] /Rect [ 130.4565 521.7898 223.927 533.1898 ] /Subtype /Link /Type /Annot
+>>
+endobj
+30 0 obj
+<<
+/BaseFont /ZapfDingbats /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+31 0 obj
+<<
+/Annots [ 26 0 R 27 0 R 28 0 R 29 0 R ] /Contents 38 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 34 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+32 0 obj
+<<
+/PageMode /UseNone /Pages 34 0 R /Type /Catalog
+>>
+endobj
+33 0 obj
+<<
+/Author (AI & Data Newsletter Automation) /CreationDate (D:20261026151917+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261026151917+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (AI & Data Weekly) /Trapped /False
+>>
+endobj
+34 0 obj
+<<
+/Count 4 /Kids [ 9 0 R 17 0 R 25 0 R 31 0 R ] /Type /Pages
+>>
+endobj
+35 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1981
+>>
+stream
+Gb!Sl?#SIU'Re<2\5/U+-&bAt+7@V+2(>i.CDsf8"p>2KM6XT^PXe=P1@3'MP*Bf0Q"RQtK4/Fi`tE[d\K<rs1)'ff8)=2J$1M[2qaV>KK?4kT+W8/X":ce@J*rCT$:ZJ+1lYWN!?"=B1o,*aAqqXN];&c$P#2X%OH>R__@iSO9L9Y?SeWs9Bg&9C_2-%3I<=P"o[L%:/ZdMM!f?:C8I:$%A,$O?+&!1&e)B9?PMb>;p[-Man]u-o04=>U9Ra2](P"j-)gB^)#;)0oUPK)`3/iDcM[B?Pnu2WC1&(d5YZsB!VNZgE3Y5@nik(5Y!1XKVZI/%]0jp[aQNX(6i]b4-9k)=T(_;fQ`g@QNnX@?C+g-a8H]EGXZaAb]d%N,<K?sG:$ihN]\FttM9RYtpC`s8u+DWg;71RR)a%rWJ*$"E6D?1&$PtD<6eT;V;il,1T1LkpZrIT=2l`3XEL2929NNaa</MrO/VQ9s24u=+HM0Yq5KEZEb=62*+HeVinjoHId$L88-G`N&UPYHbfV>L'CLgGhP#.SXk5:,*)e`]]BPn8@7D='!abcVDFM*c/+i7FtEAeW0DH;]]EV55kR&40Fl!i6jb(9J_P]k)l"3nJBWKjXh5?Bj2Nic0uL(u`jOgu7Yn9[g03[E%Z`T%Z!:J@Z"hi/Ya\K#p\)3&[WG)^:;3EQ<"<39IrW_Hr*1-MaqcFIR$8dj0LQ!mC.[W]6@Q<L_=8F$9lU?S(-D51cK'SeJNl[_iiF?ju'+-]\WXHHlLs\[4$RY7EVK)L2%I^u(\6Uh-&fTec-tm.<<CNs,lSXR@ip2q<o7MQakB[`0Dj325jnc91!?SWJ4[[QgZ4:HU-Og,L^,3++m.%>Re>,&8pK8A[2p+kfU6<4U@G65a2T%P&f:&Ve5%*8<g6IXa%*TtE@)M3aO.Y;!j3CP;D6#X.*6QOG,(+B.:C]+0Eudh+m)n>oKp/-Uu>^BH3.b/g).C$^I=(iqF&2k,D3dCPQlNB3ZjP[V2/7hsp<>W*ld@_>Kh<A1MmFg'%2O/ofBUm^nuolBg6-Z8)"G5)AXf^5.[-d6*]@aYK+k.'Q&<g*mIS:8DUnj_n:Q.Ws("Z6o_c?L/jR=Os9E'A4SVgl6io'8Fk24VE`[0Q,,"?+??>`6gc[J.9;jug8qq4>BA%<Gh2aP:]fT5nX\/MA'TaUYhLhd&c!CH+::2XZE-[K8`+!3omt?CP+6ZF3,"UN3&Teq;tY0Sf`19^jVXnttrDMu%<DJEpoZ1P:ar^u4P`oNZr^apXeP31]$<?KpS1+5#tO(Z(*0?PU-G#R6t;E*MRB>D3<T0P1kB7`s\gW>dEQENO&nr1n8"\Xg1fes[0F5cTP0]mrot-P9[/DIKatAjTn<bkh1!UReK"D#Q)gHFBc2+n46$Ks+4ec"^TKj7RHY!_D5L4K.r$P!PPEO^*d<\qR6&[Si*h=`&-1QF4[^i16ClRh/iXS&7Tl)pSj2Z#.$06"1`UWJ>^IF_j]\HX0>]%mHoGYMb-/>2m36$S_#6dDHG5)>QsFht"@lPUO2/Ce@&]T9A"?F(oP=2N4*VNTgc0'H>K/lDuGF6Duh@ghm02Y<_foN=qD%UH&<3[VPaJ'KO+7_0o*)aD;5M5*CVMAmSG!GJl(t'_#E8GED_]5D@`WWpj-L(M'25\-%2tA\g$XNSQq5l$*u'Njd>K3hfE-CE&7n^J(CO9@lLhgK?W]6';^fa3@sJO?Z1uGEI0@hDhnFSsN@.`DBNKMV<l15ppFr2sNS`,K4_gAp9CEI.T+q&<a<a\YX3p"h_9Qi5Esubl/6@X%J:O+]TX'<"1^%m,.BDok@7ei==NP:i$\neNa1+Q!Of3X)l.)"082'S-t25BJ:VEM&$WrC[BgQ:E7;JN_kD[VGeBTqVZ`#;>3AUZkY$,i-&/;N8N:&cs`Y'$O-h>mA(h(G*>2=+PE',rm(Y2`\n2rr1=b'U][pcD+K7Y#`fWIf_Gd$mHhF~>endstream
+endobj
+36 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2189
+>>
+stream
+Gb!SlD/\/e&H88.ETi2'h%E`;S#q-4e$NeP?tnY1(_E?J,hhB);(>!\oroOQ4%cdnf;[TM_29F&*/in6F"b2h:(1D*@J4W&"2#Vko@FD<#NH,p^^4Cr$HM2?c[3qcFQ3rmUJ^(]6ZD&3MZX/*hX!6i\D:'pN1;kZOZRZ4%l`V^#*IrPYkK]$MnN0/L_Rd&eB19Mc**_e%bAL3AKm4tcB!#`*57-)nEOt?#_*g9T:Gles4D6C5J0-?\Te>=^L6si8aHHQGW+i^BcaWX3^ob*iatCVNtE_gF3^Zb]Ulq5k_-qKJ4'pC#i1'AP+3NQZ8cmP6iLc[q<4M\(l]`34J^>tNotcI3KY+%(dDV-N-h&_.p-$^#QY=T2pYiX^_f)T@33:H;8+!D#'AEM#T5Z3#/10Tk^="UcV^C93Yr]ZP)-+>;o%R"kW+#id`gYZ2r^.LTb@2kiWbJZ9SF+JBA":"%@7sIb/><MXRSj.pW-X0SBtFSFB6BQJBS@h`*2s^bi`.F)UZ7&C+4#R6N]:]WN:0N*/)Y+HhhIk/hc!/Y50W3eP)cSJ9e:6*AI5<Kk!&hiO^aJpG_uq#)ElRjZO01.i?qt(dDIT/%CjV#%f2)=UDi>7[d$3p^*sNXADi#<'mCr'l>F8>iBBL'r?da'R_LrM)Ag<5'7&>mUT;'q[&KjgdlFsbWCuQ(TGKA3QG.R4t:\p,?'i@=K?%=,Il$lHli\i_Wj`M.D/L7V/fJ0;G@2\0j6=EgsfM,%U98?X5FXtngg,",>jX,iu)HY1?7R3>Z)\EU'7_]]LMM76maV87D@-[lJS-/^J@A+g>_<kOZ1#lTbUq'M6Ou'`Q76EjcfOaqu5DR<#/7UbX1buSPFlQI&GA4aCHntA_iQmb(_L5=sTt6hr*7E$#WiQ\oH+8=&]2^n[*YVS+kmG/?q\:P`q*/1.68.FM81DIe0KMhFg1Wqkab<r,&M%0Q_n+$Gjc?DsK!5L^SsnK<G[N",an_>#$@IYpsLZLc)#:@nlqFG\Z\u(7EE#<L?K,2N5=TQEoOM)Q^2SL;=g,XYJj@.%A#Y3lg#kY43j#UF!u=X2ERub=GP.^u4$-3XfS\kK)k\j+k_4Xps>nbsC!GIE+M%3M*ije]'Oc9E>48@r-rMj7lJ*F<g+@=57aS<Z#Bk1jS".>eE;WA3+lHlsWThM]=\JG1@90>;QLrF#4/<PS$j*^*t&83eC7q,"%j!"]32*"58:PFmf^Ts4RY[G7sA"C]a`4JmS</X*k/"eA1N=BIl/_0u7#N@^=e+@#UrE^0jljDq!\%YWHg&m`uYZbK;A\1W@Pdg$2c.7$k.!\,tl??"o^3'CT&##5UU!l=B<-6020Gd3<V.k)#4SZ4+U4F(E/TG:TdlbB$LHW*VHsN[0h?:&BNR:8M3n0Q$UNi!KiFb1"I+)IuEU&r<=N2,fFZ2:<rL#[+:jQM)6O&^*LN/%odYY^=/khiPGAr[&QUj)EcLnh\afO%o-SYO^`#+EGR*jLS@C#p+p-I6[)ArZ2jG,KC2P?*R59"Ugm]--Cq8H%k\&.DHX^$nG.u40Z9Gidk'^,Ce#O57SE:9QuA0)_1EmO,?&lolK?3;UOF8.sC#0hVSU?",jgRIuCM:JpO]1kg67URaLV.bR\T9<\O#Q:i_DMWo@f?Z*T[tO\hnp7k945dUXOYNJkk/4=d9g-<1?^S%P/e%,krUlCp1e!B52-,?h?;*-`bV.(Q7g2$$T0iH9nQL]d;O!"O#pJY_0/X`5&^ZRstXKS"JH;`3!XLneCcApVnBU.j:c.$.\"W"s[oC/(%TL2*k"s3e.!a6HD*XP9%BD%lqobh]_5r65(kAUTp>pMot`%@83hXbP-jOna]cDI<*]n5%tg]B#St$iZjJ6<t_j%Vc*>Wlq]pGZBf:F=$G-^#LDWrhK@7;ID_e?rCXjJ\f&7Y;)U&'F_bFP/h+-;ll.K"+M7.@W&hW:lk-Ue@KK6Xb#\_%sTg$6Vu?'r0&S4KgL+5p77_RBUg2/>,2/ha_cUX65*g4VDk<ijl#@YalP=ObZIU_W3mh_C0G\K'd.@+Ku#FeLKP*#UouAn<QPn?,ZK<2=m&8iGu:!/(0'd)o8i*O<@/2IVIPJ>)qqk9Ge,tl1m$0*89BfrDeN@II*)h&dW/Z+":S(+@%S1TNAu@6q`UOq/(qeQW`>K2mrW0E6l,Lq"c5,#`;~>endstream
+endobj
+37 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 2065
+>>
+stream
+Gb!SlgN)%,&:O:Slr0pk2F;q<^WDM"EU5ZfXYe:]B/1#)8VhUg5Z!>"rV/!1>prd7jM^J.1;6Qf_;2H0#C?GJE:AY:s%*]>e:SR@-r:,]!Dni%co[#HhVOS^')>9B!K!P$Kg(UNB<atclLc2)@CB6f(Qg\-a9d^HE+0<k(D)r0Xg&;;pZ<M@iuf\bgcdc6IaufhTQ=4VRg?qkn+UkdFALj5]^5@'nDWHhm//++D=<Lf:63`(T0r''oR8Y5(P#b<2e\t##3J_tNdU!IA2aKX%4:^gabKrQQGMH5$-VS)0cbKQdt,#l*1sX?iLfEIhq4V\K-oU1$k.Y_Y=[fGWu=;PQ&1f<_3G]LkRo@"bXJ5aprs[inPt2mE-,-\ZoWl8>%[Ur(6Fd"5RqSKc+=]1iiGcD/<e$aoLJtr.#JA(6)"M6U07]MdH+IEnh6\#,pQQK9#*Wl`]iu#T+CK:D*8`&BVth3n*qQIa<?g@,W`PkRFEIOq+4Xd*%7'm-u7YK7RTo,*1#"/&i_N88QhgT&\>9h%j;gU,s'tGQ`9Mm22m6V<#G+PZHWNr7V*q?TpfLi<t-4?VZDOJ%Yfl$2-n0P<*nqo65-nth_4Y9+&Xg*7;Da0RS;-b?4:VF!.jb;VZT-C8ta]C9f*,S<DMJs,#&`RZqN5+SOqG+/o5c*`tn$UWRb#s]m@p)1=\k';F-r8fUu2hPP)p9S2Da&GL7O&RoKbTf?"<=#A$e7cuPW9HT5e;B8n8I8<-->RPoQu*7e8-R&DdB'=<E4.T2;Eb?@Yd<Z>M:9&L*;VV84L0Ar]`'UW^.TuC$3V2\HM=H6@.]m8I>kMVgTO+iGbP9otoY+IMbR;3E97rRqkVUH?HDScP=UG9`G0a:+kl<(X!lH,j?lrG?f7)?jIEj5le*5[M!i,et.AIUc>bbhjG2dB[kQ@2SP!T!A(aVC?DffQaS5(.X[FL8mPqb(`n-b(]kQ8Pu6X/l`gmk.BLq]ZR8]M>#)RYune#d_s@qoCfDhmF$QE_4jYdtS?dD/IgsLdU4<_3X+N&Tb44LOKd<Y3FmKKKeqc^]t[f,j$%-=((l;\/;a)0HKZ6)][V/_7`cf-juUi@r%?c6OUZZ*'7OumK72t>[b$VTp3WO=Xuq?`Ki@UEI;,grgkN5;MiR_RP6SMFgWBObBZ#aeN#6d-)OSa[XjB<+?)Fm#[LHY81oTThb`FO^7M),qS`&(nJkcMNLkRLZFuPFRiLQAP!b_o33anD&4UAiPTar&Khc#sF(F@BM^?*V7TF:5R>(%$^-ti?#]gk;&m01[a<cBZcL:eX9j:PG$(Eh!AZ5V`g37r:J@gffo;P/!P3p3R^-"HrN\@Z8fsZ!*cL;Le.kB]=%-AQA7?C<Ub]lA,8kUPE0CRdcb=a.DQ25Y+*T)`Rei>WcrrmO_So;I,X`<aKERk"]<[3`E!6,uo*)PgKqE;k`FIbe>q9=B@#16^dcFr)ddCZK2hh'3Cdck1-kphBuI*"7T)LPd*"mV\L@S/@rVYmAR/HV:dA7mE\N6SNDc7cZ2A$l>@Y_7P'QF(uTgkcGaSa!SX6Hg4rXb<@K/^;$EeQCiaA0Iqq#F/+aRG<pdj1,q^`[0>fG9<lp8W-)k?.\Mj/1kc+5NZ-p)JO2d(!'*F.Ij!#>$N^sg&<^?H$aF(I^n=o3g$.-[[)ZQG$GPT(RL;H"coK4d15I4$BI\h?2fE*`(cs=hl/'-_sU1m;e_,uMl*^9P5R>._B,R'bR<-Pfhk[]FJ#Gs>Z0=$qrVFA7lcRLOW;tsF8Str$QckNJX/;g"*1"68sMDLB,U@3Zr._CWNi[Do&b1e8WF/]73JR(q95fJ:QiR9gStQ=k;uY*>c%`Bj](;hm.huF<\7]"pbj:'bhmQ2rQIUD*:GTgr\Qr,it]X0:E:'3OUto=Ct\eB+h1j_qAHq8p8W^_(B[:arc\qV)U?mKlnt?T?OW;-:#HDaLdMfchL/Qnis1H1]Rs<o=.XFaQCC4Q73/<^\%=ht1/TpdP1A96df\D:f*BA/4qslh2!^m)mnB'bj5F/TgQ[H/s%R:5brdJY8'i1,qZeif"J5~>endstream
+endobj
+38 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 1827
+>>
+stream
+Gb!SlD/\/e&H88.EM#.5WteM#b!)Y93i)/I/2:<BkSIEsD(^-S8]mWUrV52GOs?l"m@l06$k4,E,'eCYh*'(5$s`_Nm/L2pn6uHsY8Ar(-8T%\'>WZ\>Y\$XSN'4)V?o4R&p\I&:)\Fm^u4AL'.8P-8HhE>U_+kim._W>/0PEGa(O@=Xao/ic9ai%;CCbt7ml[)RaVbt\^fMmNeDM';SqYq$@[SnkEBt3IsLkPm0EF<IX?'UFn+Vf),1$aaY.aGmuWTCUS0X66K^sZ..gd"lpotgnd4\go=9BZE8b.0_KL8k=3#cIE1gQ@8H?#g7HhSVh2#>*4XVK_KL/9Q$#"p!loM9c`W:NkA"<"+iEF><2ZhjYl4.F+0&\*8I&^_#Va1]u&ulLH6WTPs#5=N(nCY83'fqt>'"Vs[-M2B+9st&)iRWcuPMHOtCJ,sSZ>Ochl(`@&AQcil1G*-lp2Pji56n0]Wn/p@Pu,+A2S`C!(499k#<ndiaO)XpMU,mZ9SnqU8qX($<!%9IV-2`YAg,5[W.\=*l4/'(j(Adp[m._Kn>d>YmTm8-aN=dBB,nDr!\WbQ-KgB*`uR3D>u`()E[Aum;$atj8`cOSZ=K=rQ_fh&8bA4bo<I*20M3O]b.WBdFFl=V_8h/u6EDaS;5qP5_LpQ_+_W[gVYTkLfB<,&P(D#Q9$V"e$YTW%ZgJ?=Ad!;=0h:Jc)o6S',UPfr/MMrL*.T2)irKSG*5uJA9s#[p@CU%DShR<9Q-3nPM[#@LD8dN91:_ULhp]ALpR*:M@ds4%"BO49,n`]2p`YfQCK%apEj0WZQ`:2SaU]"lYnPe7$%ge9U9n8M$Y7oU+%K(VDL'ul44pmh66GpJ1Y*c=+etlIh[Rs8jNfdkR0B1mcJ\i@?8CL^1S/&qjOe*d7;T92Z0N[DbcFjT33=.de%O#GQ.Y2PD'NupiD:l7+eIRrDFg-sD.^,Pbl/0aCeFI^$;R#dn_#)#>lVG4780Qp,2_FJkBbOC\RXbrh!iO3cWp3Gqr*'`@Gj?7@^PGG43#=E.#&aJqQ'sWi]rj1\q'H?U&ZVsQQ!scmsfP0Yq6_:J7X]kO$[FrJE,2iW=#VX??3)S,Sm>";csFj%tJCks/`k`bXl]N-nD%j:Q<^*b[tQ^(0O2ZW(=#rD%18eMDi>2"'7;B+a@E=\8!0HKD3%ugVD.AN53!l_3)=7Q]?N4Ii7/J`fY2d<<=ARnCa1RQ6D"Fq0f;Cr>P1<6k9TWp)$?Lb!(r4^Bqg*FWl'N`Y>,p4f44OFgR.uTE^-%4dOq'cPdXranKWN+/=BQEpr)'V`;<g+:Z91L3L6Y_%2RH=H!FBpe_U7d:Zs-2tM>r`+I):K\uj")]LV=/4=Z:>\O\%mj/&`#*pr#?'<26%CGq4Z/FlI@!="@<=cFdXi!5oj9uutfLfWba?4M^HOY/#L3g=N\"2.HoN5)\;b(CJ7$ZTpc&">m\4;QpH$*7?6^>7$kj//fYcodQ3\2a2j8j/0KJd>_.:lZ5-k$Vd98Qf&P>1r>nPr``UF-SUbF0$rU;F8P:nb7iCA+a\1/FsFV4=S=Z,3/3lXRg@SiY(7;:[7+]1q"'6qetf+'=g1[9qoLPZ_OABXF-a"hbA.%-&l"Yq\F&X`Q[]K+s0PSRt0#2,5@1;.[1'2fDAq@bKmo;i[YL7gJhM%!/$'=GHHKYNidBCa%NkY,F34$OJX`"V+48a?iD;G:u^`5P<IGM1:U<ilU088,b@okl2L\5JZN[i\T$meWf8Mjj`&h:91j0%kRLuc8:?E+Ad,qKo/?.A@*6#bW$j0'=lR.<ekLO'!(*#+YnO,(;e1CK+0#:~>endstream
+endobj
+xref
+0 39
+0000000000 65535 f 
+0000000061 00000 n 
+0000000123 00000 n 
+0000000230 00000 n 
+0000000342 00000 n 
+0000000457 00000 n 
+0000000725 00000 n 
+0000000995 00000 n 
+0000001271 00000 n 
+0000001550 00000 n 
+0000001791 00000 n 
+0000002074 00000 n 
+0000002359 00000 n 
+0000002635 00000 n 
+0000002913 00000 n 
+0000003194 00000 n 
+0000003477 00000 n 
+0000003754 00000 n 
+0000004021 00000 n 
+0000004300 00000 n 
+0000004571 00000 n 
+0000004844 00000 n 
+0000005105 00000 n 
+0000005368 00000 n 
+0000005684 00000 n 
+0000005999 00000 n 
+0000006266 00000 n 
+0000006584 00000 n 
+0000006895 00000 n 
+0000007205 00000 n 
+0000007518 00000 n 
+0000007602 00000 n 
+0000007848 00000 n 
+0000007918 00000 n 
+0000008220 00000 n 
+0000008301 00000 n 
+0000010374 00000 n 
+0000012655 00000 n 
+0000014812 00000 n 
+trailer
+<<
+/ID 
+[<52b7ebadd41ab94f4b1465e8cd82419a><52b7ebadd41ab94f4b1465e8cd82419a>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 33 0 R
+/Root 32 0 R
+/Size 39
+>>
+startxref
+16731
+%%EOF

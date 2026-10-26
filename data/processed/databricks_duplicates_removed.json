@@ -1,0 +1,42 @@
+{
+  "source": "Databricks Release Notes",
+  "removed_count": 4,
+  "removed_articles": [
+    {
+      "title": "TypeSafe AI Jev 1.14.0 is now available on Unity Gateway",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#typesafe-ai-jev-1140-is-now-available-on-unity-gateway",
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "summary": "<p>TypeSafe AI <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#typesafe-ai-jev-1-14-0\">Jev 1.14.0</a> is now available on Unity Gateway. TypeSafe AI hosts it, and an account admin must enable the <strong>TypeSafe AI Models</strong> preview. TypeSafe's terms govern its use.</p>",
+      "published_at_ist": "2026-10-16T05:30:00+05:30",
+      "duplicate_of": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#typesafe-ai-jev-1140-is-now-available-on-unity-gateway",
+      "removal_reason": "Duplicate matched a previously reviewed decision."
+    },
+    {
+      "title": "Consumer access to query Unity Gateway services is generally available",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#consumer-access-to-query-unity-gateway-services-is-generally-available",
+      "published": "Thu, 15 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Users with the consumer access entitlement no longer need an account admin to enable the \"Consumer access to Unity Gateway\" preview to query the model services and model provider services shared with them, or to use Unity Gateway coding agent features. See <a href=\"https://docs.databricks.com/aws/en/ai-bi/consumers#consumer-access-capabilities\">Consumer access capabilities</a>.</p>\n<p>This change can increase model traffic from consumer access users, including traffic to external providers. To control this traffic, account admins can set budgets and rate limits, or disable direct model access, for consumer access users. See <a href=\"https://docs.databricks.com/aws/en/ai-gateway/budgets\">Manage budgets for Unity Gateway</a>, <a href=\"https://docs.databricks.com/aws/en/ai-gateway/rate-limits\">Apply rate limits to model and MCP services</a>, and <a href=\"https://docs.databricks.com/aws/en/security/auth/entitlements\">Manage entitlements</a>.</p>",
+      "published_at_ist": "2026-10-15T05:30:00+05:30",
+      "duplicate_of": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#consumer-access-to-query-unity-gateway-services-is-generally-available",
+      "removal_reason": "Duplicate matched a previously reviewed decision."
+    },
+    {
+      "title": "Google Gemini 4 Argon is now available on Unity Gateway",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#google-gemini-4-argon-is-now-available-on-unity-gateway",
+      "published": "Tue, 13 Oct 2026 00:00:00 GMT",
+      "summary": "<p>Google <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis/supported-models#gemini-4-argon\">Gemini 4 Argon</a> is now available on Unity Gateway. You can access this model using <a href=\"https://docs.databricks.com/aws/en/machine-learning/foundation-model-apis\">Foundation Model APIs</a>.</p>\n<p>Customers are responsible for ensuring their compliance with <a href=\"https://docs.databricks.com/aws/en/machine-learning/model-serving/acceptable-use-models\">applicable terms</a>.</p>",
+      "published_at_ist": "2026-10-13T05:30:00+05:30",
+      "duplicate_of": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#google-gemini-4-argon-is-now-available-on-unity-gateway",
+      "removal_reason": "Duplicate matched a previously reviewed decision."
+    },
+    {
+      "title": "Unity Gateway Skills API and developer tools are available in Beta",
+      "link": "https://docs.databricks.com/aws/en/release-notes/product/2026/october#unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+      "published": "Mon, 12 Oct 2026 00:00:00 GMT",
+      "summary": "<p>The Unity Gateway Skills REST API is now available in <a href=\"https://docs.databricks.com/aws/en/release-notes/release-types\">Beta</a>, with create, read, update, list, delete, and finalize support across Databricks developer tools:</p>\n<ul>\n<li>Databricks CLI</li>\n<li>Python SDK</li>\n<li>Go SDK</li>\n<li>Go Modular SDK</li>\n<li>Java SDK</li>\n<li>JavaScript SDK</li>\n</ul>\n<p>See the <a href=\"https://docs.databricks.com/aws/en/ai-gateway/skill-reference\">Skills API and SDK reference</a>.</p>",
+      "published_at_ist": "2026-10-12T05:30:00+05:30",
+      "duplicate_of": "https://docs.databricks.com/aws/en/release-notes/unity-gateway#unity-gateway-skills-api-and-developer-tools-are-available-in-beta",
+      "removal_reason": "Duplicate matched a previously reviewed decision."
+    }
+  ]
+}
